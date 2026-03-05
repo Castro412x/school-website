@@ -9,16 +9,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body class="font-[Gowun-Batang] container mx-auto px-13">
-    <nav>
-        <ul class="flex border-b-1 gap-[16px] p-2">
+<body class="font-[Gowun-Batang] container mx-auto px-13 ">
+    <header class="fixed top-0 right-13 left-13 ">
+        
+        <nav>
+        <ul class="flex border-b-1 gap-[16px] p-2 ">
             <li><a href="#home">Home</a></li>
             <li><a href="#details">Details</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-    <div class="intro flex justify-between bg-[#f6f0e4] mt-[20px] px-3 rounded-full">
+        </nav>
+    
+    </header>
+   
+    <section>
+        <div class="h-10 "></div>
+            <div class="intro flex justify-between bg-[#f6f0e4] mt-[20px] px-3 rounded-full">
         <P class="font-medium" >Announcement: Spring election is now open for voting</P>
         <a href="#survey" class="font-medium underline" >Survey Now</a>
     </div>
@@ -31,7 +38,9 @@
         <img src="./img/lib intro.jpg" alt="library intro" class="object-cover w-full mt-10">
     </div>    
     </div>
-    <div class="flex flex-col justify-center items-center text-center mt-[50px] gap">
+    </section>
+    <section>
+         <div class="flex flex-col justify-center items-center text-center mt-[50px] gap">
         <h1 class="text-5xl text-black mt-10">What We Do</h1>
         <p class="text-xs text-[#3d1a0d] mt-10 ">Club Details:</p>
         <p class="text-2xl font-light mt-10 ">Speed and Debate is where you'll learn to think critically speak <br>
@@ -92,5 +101,53 @@
     <div class="flex justify-center">
         <img src="./img/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg" alt="" class="object-cover w-250 mt-10 h-100">
     </div>
+    </section>
+    <section>
+        <div class="flex flex-col justify-center items-center text-center mt-20 ">
+            <h1 class="text-5xl text-black ">The latest news</h1>
+            <div class="flex flex-row mt-10 justify-between shadow-md p-10 rounded-md">
+                <div>
+                    <img src="./img/student talk.avif " alt="student" class="w-120 pr-20 ">
+                </div>
+                <div>
+                     <h1 class="text-[#3d1a0d] text-1xl" >
+                    2025 Regional Results
+                </h1>
+                <p class="text-4xl mt-10">
+                Lincoln Takes Home 1st place <br>
+                    overall.
+                </p>
+                <p class="mt-6">
+                    The team took home a stunning win, claiming 3 of the top 5 <br>
+                    spots! Big shour outs to Emily, Steve, Bryan and Lizzie.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row mt-10 justify-center text-center gap-6  ">
+            <div class="shadow-md px-15 flex flex-col items-center rounded-md">
+                 <h1 class="text-[#3d1a0d] text-1xl mt-10" >
+                    Upcoming event
+                </h1>
+                <p class="text-4xl mt-10">
+                6/11 Lunch Hour Pizza
+                </p>
+                <img src="./img/TAB.avif" alt="TAB" class="w-100 p-5 rounded-sm" >
+            </div>
+            <div class="shadow-md px-20 flex flex-col items-center rounded-md">
+                 <h1 class="text-[#3d1a0d] text-1xl mt-10" >
+                    2025 Regional Results
+                </h1>
+                <img src="./img/pfe.avif" alt="profile" class="rounded-full overflow-hidden w-50 h-50 mt-2">
+                <p class="text-4xl mt-3">
+                Linda K.
+                </p>
+                 <p class="mt-5">
+                    Congrats Johnny on qualifying for Nationals!
+                </p>
+            </div>
+        </div>    
+    </section> 
+   
 </body>
 </html>
